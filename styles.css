@@ -1,0 +1,44 @@
+body {
+  background-color: #f6f6ef;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  background-color: #fd6620;
+}
+
+#title {
+  font-family: Courier, sans-serif;
+  color: white;
+  float: left;
+  margin: 5px 5px;
+}
+
+.top-middle {
+  width: 40%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+#sub-header {
+  width: 100%;
+}
+
+#brussel-picture {
+  height: 20%;
+  width: 20%;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
